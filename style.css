@@ -1,0 +1,64 @@
+.calc {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 100%;
+}
+
+.screen {
+    background-color: black;
+    height:15vw;
+    display: flex;
+    justify-content: right;
+    align-items: center;
+    font-family: monospace;
+    font-size: 10vh;
+    color: white;
+}
+
+.row {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.calc-button {
+    display: block;
+    background-color: #d8d9db;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 40px;
+    font-weight: bold;
+    color: black;
+    border: 1px black solid;
+    padding: 2%;
+}
+
+.calc-button:hover {
+    background-color: #ebebeb;
+}
+
+.calc-button-clean {
+    flex: 2;
+}
+
+.calc-button-delete {
+    flex: 1;
+}
+
+.calc-button-signal {
+    flex: 1;
+    background-color: #df974c;
+    color: white;
+}
+
+.calc-button-signal:hover {
+    color: black;
+}
+
+.calc-button-number {
+    flex: 1;
+}
+
+.calc-button-zero {
+    flex: 3;
+}
